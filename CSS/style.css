@@ -200,6 +200,8 @@ li {
 .p-cards {
     padding: 0px;
     width: 90%;
+    justify-content: start;
+    gap: 30px;
 }
 .p-cards .card {
     width: calc(95% / 3);
@@ -268,11 +270,13 @@ li {
 }
 
 .text-card .Tech-p {
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 500;
 }
 .text-card .describe-p {
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
 }
 /* Contact file */
 
